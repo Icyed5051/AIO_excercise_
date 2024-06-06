@@ -1,7 +1,7 @@
 import math
 import random
 #excercise 1
-def classification_model(tp,fp,fn):
+def classification_model(tp, fp, fn):
     if(type(tp) != int):
         print("tp must be int")
         return
