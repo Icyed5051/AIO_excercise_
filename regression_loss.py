@@ -10,7 +10,7 @@ def regression_loss():
     tmae = 0
     tmse = 0
     loss_name = input('Input loss name: ')
-    for i in range(0,n,1):
+    for i in range(0, n, 1):
         pred = random.uniform(0,10);
         target = random.uniform(0,10);
         if(loss_name == 'MAE'):
